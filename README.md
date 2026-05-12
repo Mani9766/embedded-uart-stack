@@ -1,2 +1,55 @@
 # embedded-uart-stack
-Custom UART stack implementation in Embedded C for STM32 microcontrollers, built from scratch without using inbuilt APIs.
+A custom implementation of a UART (Universal Asynchronous Receiver/Transmitter) stack from scratch, without using inbuilt APIs.  
+This project is designed for study purposes and to deepen understanding of low-level communication protocols.
+
+---
+
+## 📌 Project Overview
+- **What we're doing**: Building a UART stack in Embedded C for STM32 microcontrollers.  
+- **Why we're doing it**:  
+  - UART is a fundamental communication protocol and easy to implement.  
+  - Helps in understanding register-level programming and embedded communication.  
+- **Success Criteria**:  
+  - Project builds successfully.  
+  - UART communication works reliably for Tx/Rx.  
+  - Code is modular, readable, and reusable.
+
+---
+
+## ⚙️ Features
+- Transmit and receive UART frames.  
+- Interrupt-driven communication.  
+- Buffer management for Tx/Rx.  
+- FreeRTOS task integration for asynchronous handling.  
+- Debugging support via LEDs/printf redirection.
+
+---
+
+## 🛠️ Tools & Technologies
+- **Language**: Embedded C  
+- **IDE**: STM32CubeIDE / Keil / Visual Studio Code  
+- **RTOS**: FreeRTOS  
+- **Version Control**: Git  
+- **Hardware**: STM32F407 Discovery Board  
+
+---
+
+## 📂 Project Structure
+uart_stack/
+├── src/
+│   ├── uart_tx.c
+│   ├── uart_rx.c
+│   ├── uart_init.c
+│   └── main.c
+├── include/
+│   ├── uart_tx.h
+│   ├── uart_rx.h
+│   └── uart_init.h
+├── docs/
+│   ├── block_diagram.png
+│   ├── sequence_diagram.png
+│   └── threat_model.png
+└── README.md
+
+
+
