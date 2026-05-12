@@ -27,7 +27,7 @@ This project is designed for study purposes and to deepen understanding of low-l
 
 ## 🛠️ Tools & Technologies
 - **Language**: Embedded C  
-- **IDE**: STM32CubeIDE / Keil / Visual Studio Code  
+- **IDE**: STM32CubeIDE  
 - **RTOS**: FreeRTOS  
 - **Version Control**: Git  
 - **Hardware**: STM32F407 Discovery Board  
