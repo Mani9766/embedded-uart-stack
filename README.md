@@ -16,14 +16,6 @@ This project is designed for study purposes and to deepen understanding of low-l
 
 ---
 
-## ⚙️ Features
-- Transmit and receive UART frames.  
-- Interrupt-driven communication.  
-- Buffer management for Tx/Rx.  
-- FreeRTOS task integration for asynchronous handling.  
-- Debugging support via LEDs/printf redirection.
-
----
 
 ## 🛠️ Tools & Technologies
 - **Language**: Embedded C  
@@ -32,24 +24,6 @@ This project is designed for study purposes and to deepen understanding of low-l
 - **Version Control**: Git  
 - **Hardware**: STM32F407 Discovery Board  
 
----
-
-## 📂 Project Structure
-uart_stack/
-├── src/
-│   ├── uart_tx.c
-│   ├── uart_rx.c
-│   ├── uart_init.c
-│   └── main.c
-├── include/
-│   ├── uart_tx.h
-│   ├── uart_rx.h
-│   └── uart_init.h
-├── docs/
-│   ├── block_diagram.png
-│   ├── sequence_diagram.png
-│   └── threat_model.png
-└── README.md
 
 
 
